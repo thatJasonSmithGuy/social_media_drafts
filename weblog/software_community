@@ -30,6 +30,8 @@ We can make a few assumptions about the user at this point. First, we could assu
 
 This implies and leads into the problem of tracking bugs. The nature of software development is such that anyone can write software, any kind of software. We therefore have multiple bug tracking systems available--some free, some not so free. As discussed before, there are no set, hard standards by which these systems were developed. These systems are unique in how a user interacts with it to submit a bug report. This diverse interaction means that while a user may be generally familiar with filing bug reports, even with this general experience he or she may have difficulty figuring out a particular bug tracking system.
 
+Something to consider when thinking about writing bug reports is that of the software environment of the host computer.
+
 So, filing a bug report is one of the early points of friction within the software community. Do software applications provide documentation that clearly shows how to file a bug for that given software application? Does this documentation explain the fields required to complete a bug report? Are there videos that walk a user through reporting a bug in essentially real time? Does the documentation clearly indicate expected field values, such as module, component, etc. that are necessary for expected bug work flow? Basically, how much effort goes into informing a user on how to correctly file a bug report, rather than making an assumption that a user already has enough information to figure it out on his or her own?
 
 An interesting side note: Is there a checklist of things to check an application host website for great documentation on how to submit a bug?
@@ -43,7 +45,7 @@ Etc.
 
 A later interesting task for the user becomes how to track his or her various bug reports filed potentially for multiple products with potentially multiple bug tracking systems. This too is an area where I think we can innovate especially using social and cloud based media.
 
-The next step is that once the user has filed a bug, he or she will want to try out the fix or continue using the software once the bug is fixed. So, how does the user become aware of the fix, and how does the user get his or her hands on the fixed application or source code with the fix applied? This leads us into another activity zone and that is source code control.
+The next step is that once the user has filed a bug, he or she will want to try out the fix or continue using the software once the bug is fixed. So, how does the user become aware of the fix, and how does the user get his or her hands on the fixed application or source code with the fix applied? What sort of notification options exist in the various bug tracking systems? This leads us into another activity zone and that is source code control.
 
 A developer fixes the bug and checks, does some unit tests, and believes the fix is working and so he or she checks in the fixed code into the application's source code control system. At this point, there is not yet a new release to download and install as we are waiting on other bug fixes and other changes to be included in the next release of the software. However, if a user desires, he or she can likely connect to the application's source code repository and download a snapshot of the code, compile it, and try out the fix. The application may or may not be usable to where the user could continue his work. Doing this is living life on the cutting edge of software development.
 
