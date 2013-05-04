@@ -1,0 +1,17 @@
+Being a child of Star Trek and Star Wars I am fascinated by massive computer systems. I get excited thinking about software testing, speech recognition, software deployment (installation), and system monitoring and diagnostics. How does a computer system notify users and system administrators of status information? How do users and system administrators acquire status information from a computer system? What status information might users or system administrators need from computer systems available today? What system components might users or system administrators want to monitor?
+
+	* Processes
+	* Services or Daemons
+	* User Accounts
+	* Logs
+	* Performance Metrics (CPU Usage, Memory)
+	* System Security (Firewall, User Login, Network Activity)
+	* Installed or Deployed Software Applications
+	* System Updates
+	* Device Drivers
+	* Files and Directories
+	* System Registry
+
+When I imagine computer systems of tomorrow I imagine systems that allow users and system administrators to speak commands and requests and receive verbal and visual responses from the computer system. I imagine systems where software testers converse with computer systems to monitor software deployments. I imagine computer systems that initiate verbal status updates during a software deployment. I imagine computer systems that understand requests for user-configurable diagnostic levels, such as a Level I Diagnostic or Level V Diagnostic. I imagine computers systems that can display a panel containing a matrix of buttons with each button representing a network port. Buttons within this matrix light up as new activity on the network port is detected. Users or system administrators can click a button within the matrix to display a history of activity on the associated network port.
+
+I imagine network operations centers, or NOCS, with large, wall-mounted displays showing real-time user login and logoff activity. I also imagine these large displays showing a count of host computers on the network with a firewall enabled and a count of hosts with firewalls disabled as a measure of shield strength.

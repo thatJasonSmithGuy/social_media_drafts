@@ -1,0 +1,24 @@
+Most software must first be installed or deployed before being available to users. What are some of the components of software deployment testing?
+
+	* Files and Directories
+	* File System Security
+	* DLL's
+	* Software Prerequisites
+	* Hardware Prerequisites
+	* Installation Location
+
+What is the most advanced technology mesh software testing teams have created to automate deployment testing? Since software testers interface primarily with an installer package of some form, frequently an MSI or MSP package, perhaps a more correct question is how much automation has ever been applied to testing MSI or MSP package installation?
+
+When you think of installation or deployment testing what comes to mind? First, that files and directories are created in the correct locations or paths. What kinds of files? These could be executable files, configuration files, database files, or perhaps data files. These files could somehow be tagged with a specific version likely matching the software release version. Library files or DLL's are quite common as well, and library files are even more likely to have an associated version number.
+
+	* Software Features & Options Selection During Install or Deployment
+	
+
+Le mes msi tool
+Orcha tool
+Msi vs msp
+Msi tables
+Install shield demo
+Quick build pro
+Visual studio/tfs
+Admin install of msi package = uncompressed flat folder structure of contents of msi package
